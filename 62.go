@@ -7,7 +7,7 @@ func uniquePaths(m int, n int) int {
 	if m == 1 || n == 1 {
 		return 1
 	}
-	dp := [][]int{}
+	var dp [][]int
 	for k := 0; k < m; k++ {
 		col := make([]int, n)
 		dp = append(dp, col)
