@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func generateParenthesis(n int) []string {
 	var ans []string

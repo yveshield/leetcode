@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func searchMatrix(matrix [][]int, target int) bool {
 	row := len(matrix) - 1

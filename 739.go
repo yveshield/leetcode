@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func dailyTemperatures(T []int) []int {
 	p := make([]int, len(T))

@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func letterCombinations(digits string) []string {
 	letters := make(map[byte][]string)

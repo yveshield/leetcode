@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func minPathSum(grid [][]int) int {
 	row := len(grid)

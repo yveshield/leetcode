@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func findMin(nums []int) int {
 	v := nums[0]

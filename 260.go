@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func singleNumber(nums []int) []int {
 	p := make(map[int]int)

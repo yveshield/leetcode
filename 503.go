@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func nextGreaterElements(nums []int) []int {
 	p := make([]int, len(nums))

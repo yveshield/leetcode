@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func combinationSum(candidates []int, target int) [][]int {
 	Shell(candidates)
