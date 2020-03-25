@@ -1,7 +1,6 @@
 package main
 
 func numDecodings(s string) int {
-	s0 := int('0')
 	dp := make([]int, len(s)+1)
 	dp[0] = 1
 	dp[1] = 1
@@ -12,8 +11,8 @@ func numDecodings(s string) int {
 		return dp[1]
 	}
 	for i := 2; i <= len(s); i++ {
-		a := int(s[i-2]) - s0
-		b := int(s[i-1]) - s0
+		a := s[i-2] - '0'
+		b := s[i-1] - '0'
 		n := a*10 + b
 		// 至少一个0独处，无法解码
 		if s[i-1] == '0' && s[i-2] == '0' {
